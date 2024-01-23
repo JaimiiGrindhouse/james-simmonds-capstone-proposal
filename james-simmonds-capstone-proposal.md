@@ -225,6 +225,12 @@ Format:
 
 json or flatbuffers . This parameter is optional and defaults to json .
 
+Bike Storage/Parking locations:
+
+GET all bike storage points
+
+http://localhost:8088/bikestorage
+
 ### Auth
 
 Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.
