@@ -276,7 +276,7 @@ Conditions of Satisfaction:
 
 Msc Research Project:
 
-![Research Paper](assets/wp185_en.pdf)
+![Research Paper](assets/James%20Simmonds%20SIM20499428%20MSc%20Major%20Project%20%20.pdf)
 
 1st Iteration:
 
