@@ -115,6 +115,9 @@ Open Weather Api
 Bike Storage:
 Custom data set or an Api (TBC)
 
+Route planning:
+OSRM (Open Source Routing Machine)
+
 ### Sitemap
 
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
@@ -198,6 +201,29 @@ https://api.tfl.gov.uk/BikePoint/Search?query=angel
 Response data example:
 
 ![Get Santander bike point by location](assets/Get%20bike%20point%20by%20location%20Angel.png)
+
+OSRM:
+
+GET
+
+/{service}/{version}/{profile}/{coordinates}[.{format}]?option=value&option=value
+
+Service:
+
+One of the following values: route , nearest , table , match , trip , tile
+version:
+Version of the protocol implemented by the service. v1 for all OSRM 5.x installations.
+
+Profile:
+
+Mode of transportation, is determined statically by the Lua profile that is used to prepare the data using osrm-extract . Typically car , bike or foot if using one of the supplied profiles.
+
+Coordinates:
+String of format {longitude},{latitude};{longitude},{latitude}[;{longitude},{latitude} ...] or polyline({polyline}) or polyline6({polyline6}) .
+
+Format:
+
+json or flatbuffers . This parameter is optional and defaults to json .
 
 ### Auth
 
