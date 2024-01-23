@@ -231,10 +231,6 @@ Does your project include any login or user profile functionality? If so, descri
 
 Not planned but would be considered as an addition in the future development road map.
 
-GET all bike storage points
-
-http://localhost:8088/bikestorage
-
 ## Roadmap
 
 Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
