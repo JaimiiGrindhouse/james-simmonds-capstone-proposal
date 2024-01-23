@@ -213,28 +213,28 @@ http://localhost:8088/bikestorage
 
 Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
 
-Sprint 1: Project file structure set up client-side (react) & server side (api) and all "known" dependencies that will be required to complete the project.
+Ticket 1: Project file structure set up client-side (react) & server side (api) and all "known" dependencies that will be required to complete the project.
 
-Sprint 2: Api set up and 3rd party Api keys set up. The project is highly reliant on 3rd party Api's and and developing an original set of data. Setting up the logins, getting api keys etc. Then testing the end points I wish to use in postman, to ensure I am getting the data correctly that I wish to use.
+Ticket 2: Api set up and 3rd party Api keys set up. The project is highly reliant on 3rd party Api's and and developing an original set of data. Setting up the logins, getting api keys etc. Then testing the end points I wish to use in postman, to ensure I am getting the data correctly that I wish to use.
 
-Sprint 3: Build out the Api to create get and post routes that correlate to the tested end points from sprint2. Take care of the securities, ie. .env file and .gitignore to safely store Api keys etc.
+Ticket 3: Build out the Api to create get and post routes that correlate to the tested end points from sprint2. Take care of the securities, ie. .env file and .gitignore to safely store Api keys etc.
 
-Sprint 4: Install react router build out the skeleton structure of the project in React, ie. Pages and components to help enable the visualisation of client side implementation of the project.
+Ticket 4: Install react router build out the skeleton structure of the project in React, ie. Pages and components to help enable the visualisation of client side implementation of the project.
 
-Sprint 5: Set us Sass, and add all variables, mixins, media queries etc.
+Ticket 5: Set us Sass, and add all variables, mixins, media queries etc.
 
-Sprint 6: Build out the reused components that will be common throughout the project. ie. Nav/header, footer & button navigation that will feature on every “page” of the application.
+Ticket 6: Build out the reused components that will be common throughout the project. ie. Nav/header, footer & button navigation that will feature on every “page” of the application.
 
-Sprint 7: Build out a maps/component/page” that will render a map from the chosen mapping .Js library/Api.
+Ticket 7: Build out a maps/component/page” that will render a map from the chosen mapping .Js library/Api.
 
-Sprint 8: Implement Geolocation of the user into that page, so that the map centres on the user, by taking there lat and lon and updating the map library. (Note\*\* - when thinking about how structure the components that make this up, this could be a component on its own as it will be reused on every “page”.)
+Ticket 8: Implement Geolocation of the user into that page, so that the map centres on the user, by taking there lat and lon and updating the map library. (Note\*\* - when thinking about how structure the components that make this up, this could be a component on its own as it will be reused on every “page”.)
 
-Sprint 9: Santander cycle hire build the ajax request to the Api to call a get request to api that will populate all markers on the map, with pop ups populated with data about the bike points.
+Ticket 9: Santander cycle hire build the ajax request to the Api to call a get request to api that will populate all markers on the map, with pop ups populated with data about the bike points.
 Set up the ajax request that will call the openweather Api to provide data on forecast for the next hour to also add to the pop up. Provide styling to the pop ups'. Consider custom markers and pop up styling.
 
-Sprint 10: Create a “Route Planning-page” component, initial is the geolocation/route planning component, create the route planning html, and construct the .jsx to run the route planning plugin/widget functionality. Once tested, create styling for this.
+Ticket 10: Create a “Route Planning-page” component, initial is the geolocation/route planning component, create the route planning html, and construct the .jsx to run the route planning plugin/widget functionality. Once tested, create styling for this.
 
-Sprint 11: Create the “homepage - page” component. Create the html structure for the page, provide some basic styling. Create the Axios request to retrieve current weather from Openweather Api., and information for a 5hour forecast.
+Ticket 11: Create the “homepage - page” component. Create the html structure for the page, provide some basic styling. Create the Axios request to retrieve current weather from Openweather Api., and information for a 5hour forecast.
 Create date and time now function to display on the page.
 Second .css session to style the data included, and to tighten up the design.
 Implement Stepcounter/pedometer, to diplay the users steps for the day on the home page.
